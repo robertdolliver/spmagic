@@ -1,4 +1,5 @@
 /*global _spPageContextInfo, SP, document, spMagic:true */
+
 /**
  * @fileOverview This file creates a namespaced library of variables and
  *   functions that can be used to enhance the functionality and
@@ -8,6 +9,7 @@
  * @name spMagic
  * @version 0.0.1
  */
+
 /**
  * @license Copyright (c) 2012, SharePoint Experts, Inc.
  *   All rights reserved.
@@ -39,6 +41,7 @@
  *   (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  *   OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
+
 /** @namespace spMagic */
 spMagic = {
 	/** 
