@@ -41,8 +41,12 @@
  *   (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  *   OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-
-/** @namespace spMagic */
+/**
+ * Top level namespace
+ * @namespace spMagic
+ * @property {object} constListTemplates A "constant" object to dereference List
+ *  Template IDs to more friendly names.
+ */
 spMagic = {
 	/** 
 	 *  Helpers for design-related tasks
@@ -71,5 +75,71 @@ spMagic = {
 				return document.body.className;
 			}
 		}
+	},
+	constListTemplates: {
+		"100": "genericlist",
+		"101": "doclib",
+		"102": "survey",
+		"103": "links",
+		"104": "announce",
+		"105": "contacts",
+		"106": "events",
+		"107": "tasks",
+		"108": "discuss",
+		"109": "piclib",
+		"110": "datasrcs",
+		"111": "webtemplatecatalog",
+		"112": "userinformation",
+		"113": "webpartcatalog",
+		"114": "listtemplatecatalog",
+		"115": "xmlform",
+		"116": "masterpagecatalog",
+		"117": "nocodewf",
+		"118": "workflowprocess",
+		"119": "webpagelib",
+		"120": "gridlist",
+		"121": "solutioncatalog",
+		"122": "nocodepublic",
+		"123": "themecatalog",
+		"130": "dataconnectionlibrary",
+		"140": "workflowhistory",
+		"150": "gantttasks",
+		"200": "meetings",
+		"201": "agenda",
+		"202": "meetinguser",
+		"204": "decision",
+		"207": "meetingobjective",
+		"210": "textbox",
+		"211": "thingstobring",
+		"212": "homepagelibrary",
+		"300": "sitelist",
+		"301": "posts",
+		"302": "comments",
+		"303": "categories",
+		"398": "accesssvcapplog",
+		"399": "accesssvcsysobj",
+		"402": "facility",
+		"403": "whereabouts",
+		"404": "calltrack",
+		"405": "circulation",
+		"420": "timecard",
+		"421": "holidays",
+		"432": "kpilist",
+		"433": "reportlist",
+		"499": " imedic",
+		"600": "extlist",
+		"850": "pages",
+		"851": "asset library",
+		"1100": "issue",
+		"1200": "admintasks",
+		"1220": "healthrules",
+		"1221": "healthreports",
+		"1301": "langtrans",
+		"1302": "recordlib",
+		"2002": "doclibpersonal",
+		"2100": "sldlib",
+		"10102": "iwconvertedforms",
+		"-1": "invalid",
+		"0": "notlist"
 	}
 };
