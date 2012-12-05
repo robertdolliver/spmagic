@@ -44,9 +44,8 @@
 /**
  * Top level namespace
  * @namespace spMagic
- * @property {object} constListTemplates A "constant" object to dereference List
- *  Template IDs to more friendly names.
  */
+
 spMagic = {
 	/** 
 	 *  Helpers for design-related tasks
@@ -76,6 +75,10 @@ spMagic = {
 			}
 		}
 	},
+	/**
+	 * @property {object} constListTemplates A "constant" object to dereference List
+     * Template IDs to more friendly names.
+	 */
 	constListTemplates: {
 		"100": "genericlist",
 		"101": "doclib",
